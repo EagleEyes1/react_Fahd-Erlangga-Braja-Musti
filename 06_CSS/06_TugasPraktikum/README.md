@@ -1,0 +1,4 @@
+### 3 Poin yang dipelajari dari materi CSS
+* CSS berfungsi mengatur dan menghias halaman web, CSS dapat ditambahkan ke dalam HTML dalam 3 cara, *inline* CSS, *Internal* CSS, *External* CSS
+* CSS secara umum dibagi menjadi 2 bagian, *selector* dan *declaration*, *declaration* terdiri dari *property* dan *value*. Saya mempelajari penggunaan *property-property* CSS dari video yang ditampilkan.
+* *Front-end* sendiri juga mempunyai *framework* yang dapat mempermudah dan mempersingkat dalam pembuatan kode program. Saya mempelajari penggunaan salah satu *front-end framework* yaitu bootstrap, penggunaan classnya dan lain-lain. Selanjutnya saya belajar membedah website alterra academy dari pemakaian bootstrap nya.
