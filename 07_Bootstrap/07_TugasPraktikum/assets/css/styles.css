@@ -1,0 +1,63 @@
+html {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+a {
+    margin: 6px;
+}
+
+.content {
+    padding-top: 50px;
+}
+
+.deskripsi img {
+    width: 20%;
+}
+
+.deskripsi a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.bawah {
+    padding-bottom: 70px;
+}
+
+.extra {
+    padding-bottom: 120px;
+}
+
+.judul {
+    font-size: 32px;
+}
+
+.judul span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.turun {
+    padding-top: 90px;
+}
+
+.footer {
+    padding: 50px 200px 50px 200px;
+}
+
+.footer p {
+    color:#ffffff;
+}
+
+.footer a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.copy {
+    margin-top: 20px;
+}
+
+.pad {
+    padding-bottom: 170px;
+}
