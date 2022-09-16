@@ -1,0 +1,5 @@
+### 3 Poin yang dipelajari pada materi Introduction ReactJs
+
+- ReactJs adalah javascript library untuk membangun user interface. ReactJs dipakai karena declarative yang artinya ketika ngoding lebih fokus kepada 'what' dari pemrograman. Alasan lain karena berbasis komponen yang artinya setiap komponen dapat dipecah dan dapat dibagi tugasnya masing-masing. Alasan lain yaitu belajar sekali, tulis dimana saja yang artinya ketika sudah paham dengan react maka kita bisa membuat aplikasi android dan ios dengan react native, hanya butuh sedikit penyesuaian. Alasan lain react sudah teruji.
+- Virtual DOM adalah representasi dari UI berbentuk Javascript object yang disimpan dalam memori. Dengan VDOM perubahan yang kita lakukan terhadap kode program akan lebih singkat dan lebih efisien daripada menggunakan DOM manual.
+- Belajar beberapa command cli seperti ls, mkdir, dsb. Belajar cara memulai project reactJs melalui powershell dan memahami fungsi dari beberapa bagian penting pada direktori root project.
