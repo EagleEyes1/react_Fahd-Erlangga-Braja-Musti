@@ -1,0 +1,4 @@
+### 3 Poin yang dipelajari pada materi Event Handling
+- State adalah data private sebuah component. Data ini hanya tersedia untuk component tersebut dan tidak bisa diakses dari component lain. state itu asynchronous. 
+- Stateful component adalah yang memiliki state. Component ini dibuat dengan class. Kelebihan dari class component adalah memiliki lifecycle. Sedangkan Stateless component adalah tidak memiliki state hanya prop. Umumnya dibuat dengan function karena codenya lebih ringkas.
+- Event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, seperti form event yaitu onChange, onSubmit, dsb.
