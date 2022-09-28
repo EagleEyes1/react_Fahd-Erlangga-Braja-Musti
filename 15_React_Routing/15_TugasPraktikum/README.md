@@ -1,0 +1,10 @@
+3 Poin yang dipelajari pada materi React Routing
+- SPA vs MPA. Multi Page Application (MPA) juga disebut dengan tradisional web app adalah aplikasi website dimana perlu memuat ulang seluruh halaman setiap kali membuat permintaan baru. Single Page Application (SPA) adalah salah satu jenis aplikasi website dimana hanya ada 1 halaman yang menangani semua aktivitas yang terjadi dalam aplikasi tersebut. Komponen React Router yaitu antara lain,    
+    - Browser Router digunakan sebagai router yang menggunakan API History dari HTML5, sehingga dapat menggunakan location untuk sinkronkan UI dengan URL. Di dalam object location sendiri merepresentasikan dimana lokasi aplikasi sekarang.
+    - Route digunakan sebagai pengarah jalan nya lalu lintas suatu aplikasi web. Atribute path merupakan url pada browser pada proses routing. Atribut component merupakan suatu komponen yang akan ditampilkan kepada user saat mengakses path yang didefinisikan.
+    - Switch digunakan untuk membungkus kumpulan beberapa component Route.
+    - Exact bertugas untuk memastikan route hanya merender component yang memiliki path yang cocok, jika tidak ada yang cocok, maka route yang akan di render yaitu route terakhir dengan component Notfound.
+    - Link digunakan untuk berpindah antar halaman, property to tersebut merujuk pada path di route yang akan dituju.
+    - Element kosong <></> merupakan shorthand dari React.Fragment.
+- URL param adalah suatu parameter yang nilainya ditetapkan secara dinamis di URL halaman. 
+- useHistory() memberi akses ke instance riwayat yang dapat digunakan untuk bernavigasi. useLocation() mengembalikan objek lokasi yang mewakili URL saat ini. Anda dapat memikirkannya seperti useState yang mengembalikan lokasi baru, setiap kali URL berubah. useParams() mengembalikan objek pasangan kunci/nilai parameter URL. Gunakan untuk mengakses match.params dari 'Route' saat ini. useRouteMatch() mencoba mencocokkan URL saat ini dengan cara yang sama seperti 'Route'. Ini sebagian besar berguna untuk mendapatkan akses ke data kecocokan tanpa benar-benar merender 'Route'.   
