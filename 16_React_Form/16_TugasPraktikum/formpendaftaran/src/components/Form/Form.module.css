@@ -1,0 +1,55 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.full_layar {
+    width: 90vh;
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.full_checkbox {
+    padding: 0px 10px;
+    width: 90vh;
+    height: 30px;
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.full_text {
+    width: 90vh;
+    max-width: 100%;
+    height: 10vh;
+    border-radius: 7px;
+}
+
+.padding {
+    padding-bottom: 8px;
+}
+
+.button {
+    padding-top: 20px;
+}
+
+.button button {
+    color: white;
+    font-weight: bold;
+    width: 20vh;
+    height: 5vh;
+    border: none;
+    background-color: #3a811d;
+    border-radius: 5px;
+}
+
+.reset {
+    margin-left: 10px;
+    background-color: #ed3833 !important;
+}
+
+.error {
+    display: block;
+    font-weight: bold;
+    color: red;
+}
