@@ -1,0 +1,6 @@
+### 3 Poin yang dipelajari pada materi Deployment
+- Secara default, React mengandung banyak pesan peringatan. Peringatan-peringatan ini sangat berguna dalam pengembangan aplikasi. Namun, pesan-pesan ini membuat React lebih **besar dan lambat**. Oleh karenanya kita harus menggunakan versi produksi ketika men-deploy aplikasi. Tujuan melakukan build agar aplikasi kita menjadi versi production, sehingga performanya lebih ringan cepat. dapat dilakukan dengan mengetik 'npm run build'
+- Deployment adalah kegiatan yang bertujuan untuk menyebarluaskan aplikasi yang sudah kita buat. Harapannya aplikasi tersebut dapat diakses oleh banyak orang, tidak hanya oleh kita sendiri.
+Deployment dapat dilakukan di banyak platform, contohnya antara lain,
+- **Surge**. Surge adalah layanan penerbit website statik gratis untuk front-end developers. Website statik yang menggunakan surge akan memiliki subdomain *.surge.sh. Surge dapat menerima file HTML, CSS, dan JS.
+**Netlify**. Netlify adalah salah satu platform penyedia layanan build tools sekaligus *Continous Deployment*. Netlify memungkinkan kita untuk mempublish website secara gratis. Netlify juga sudah terintegrasi dengan Git Host popular seperti Github, Gitlab, dan Bitbucket.
