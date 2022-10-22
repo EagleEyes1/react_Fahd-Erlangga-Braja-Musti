@@ -1,0 +1,12 @@
+query MyQuery {
+    anggota {
+      nama
+      keterangan(where: {status: {_eq: true
+            }
+        }) {
+        nilai
+        pelajaran
+        status
+        }
+    }
+}
