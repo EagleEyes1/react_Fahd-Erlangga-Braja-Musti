@@ -1,18 +1,18 @@
 import ListItem from './ListItem';
 import LoadingSvg from './Loadingsvg';
-import useGetPassengers from './hooks/getPassenger';
+import useSubcriptionPassenger from './hooks/useSubscriptionPassenger';
 import useDeletePassenger from './hooks/deletePassenger';
 
 const ListPassenger = props => {
-    const { passengersData, passengersLoading, passengersError } = useGetPassengers()
+    const { subscriptionData, subscriptionLoading, subscriptionError } = useSubcriptionPassenger()
     const { deletePassenger, deleteLoading } = useDeletePassenger()
 
-    if (passengersLoading || deleteLoading) {
+    if (subscriptionLoading || deleteLoading) {
         return <LoadingSvg />
     }
 
-    if (passengersError) {
-        console.log(passengersError)
+    if (subscriptionError) {
+        console.log(subscriptionError)
         return null
     }
 
@@ -37,7 +37,7 @@ const ListPassenger = props => {
                     <td bgcolor="white" className="removeBorder"></td>
                     <td bgcolor="white" className="removeBorder"></td>
                 </thead>
-                {passengersData?.passengers.map(item =>
+                {subscriptionData?.passengers.map(item =>
                 (
                     <ListItem
                         key={item.id}
