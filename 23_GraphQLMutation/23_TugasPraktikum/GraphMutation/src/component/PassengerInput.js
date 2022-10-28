@@ -1,5 +1,7 @@
 import { useState } from "react"
 import "./Home.css"
+import useCreateNewData from "./hooks/createNewData"
+import LoadingSvg from "./Loadingsvg"
 
 function PassengerInput(props) {
   const [state, setState] = useState({
@@ -9,6 +11,25 @@ function PassengerInput(props) {
     editing: true,
   })
 
+  const { createNewPassenger, createLoading } = useCreateNewData()
+
+  if (createLoading) {
+    return <LoadingSvg />
+  }
+
+  const addNewPassenger = (newPassenger) => {
+    const newData = {
+      ...newPassenger,
+    }
+    createNewPassenger({
+      variables: {
+        nama: newData.nama,
+        jenis_kelamin: newData.jenisKelamin,
+        umur: newData.umur
+      }
+    })
+  }
+
   const onChange = (e) => {
     setState({
       ...state,
@@ -17,6 +38,7 @@ function PassengerInput(props) {
   }
 
   const handleSubmit = (e) => {
+    e.preventDefault();
     if (state.nama.trim() && state.umur && state.jenisKelamin) {
       const umur = state.umur
       if (umur >= 75 || umur <= 12) {
@@ -27,7 +49,7 @@ function PassengerInput(props) {
           umur: state.umur,
           jenisKelamin: state.jenisKelamin,
         }
-        props.tambahPengunjung(newData)
+        addNewPassenger(newData)
         setState({
           ...state,
           nama: "",
