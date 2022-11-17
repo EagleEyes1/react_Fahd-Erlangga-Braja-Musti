@@ -1,0 +1,172 @@
+.content_about,
+.content_author {
+    padding-top: 20px;
+}
+
+.icon {
+    top: 0;
+    position: fixed;
+    padding: 20px 30px;
+}
+
+.icon img {
+    max-width: 8%;
+}
+
+.icon2 {
+    top: 0;
+    padding-top: 12px;
+    position: fixed;
+    background-color: #3a8b8c;
+    width: 20%;
+    height: 100%;
+
+}
+
+.icon2 img {
+    max-width: 12%;
+}
+
+.list {
+    list-style: none;
+}
+
+.list a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #6aedcb;
+}
+
+.list_about,
+.list_author {
+    list-style: none;
+}
+
+.list_about a,
+.list_author a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+.list li,
+.list_about li,
+.list_author li {
+    padding-bottom: 40px;
+}
+
+.nav_about,
+.nav_author {
+    top: 0;
+    padding-top: 12px;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+}
+
+.deskripsi_about,
+.deskripsi_author {
+    margin-left: 20%;
+    padding-left: 20px;
+}
+
+.about_title,
+.author_title {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.link_author {
+    color: black !important;
+}
+
+.aktif:visited {
+    color: black;
+}
+
+.hover:hover {
+    color: black;
+}
+
+
+.judul {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0px;
+    border-collapse: collapse;
+}
+
+.tambahtodo {
+    padding: 5px 15px;
+    margin: 20px 0px;
+    border-radius: 50px;
+    box-shadow: -2px 2px 9px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 2px 9px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 2px 9px -2px rgba(0, 0, 0, 0.75);
+}
+
+.input {
+    background: none;
+    padding: 10px;
+    border: none;
+    margin-right: 200px;
+}
+
+.input:hover,
+.input:focus {
+    outline: none;
+}
+
+.submit {
+    border: none;
+    background: none;
+}
+
+
+.completed {
+    color: #c2c2c2;
+    text-decoration: line-through;
+    border-bottom: 1pt solid #eeeeee;
+}
+
+.notCompleted {
+    border-bottom: 1pt solid #eeeeee;
+}
+
+.tombol {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+
+.tengah {
+    display: flex;
+    justify-content: center;
+}
+
+.tabel {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+.not_found {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-color: #f2eee8;
+}
+
+.tombol_not_found {
+    border: none;
+    padding: 20px 90px;
+    color: #ffffff;
+    background-color: #5e7fdc;
+    border-radius: 5px;
+}

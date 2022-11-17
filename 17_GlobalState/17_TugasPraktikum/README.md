@@ -1,0 +1,8 @@
+### 3 Poin yang dipelajari dari materi Global State
+- Global state ada dengan tujuan mencegah kita melakukan oper-operan props yang fungsinya sudah spesifik dari suatu fungsi ke fungsi lain atau biasa disebut **props dealing**. Redux merupakan salah satu library global state management yang populer. Redux menggunakan struktur "one-way data flow". saat yang tepat menggunakan redux adalah
+    - Banyak state yang perlu ditaruh di banyak tempat
+    - State pada app sering berubah
+    - Logic untuk mengubah state kompleks
+    - Ukuran codebase yang sedang-besar, dan dikerjakan banyak orang.
+- Perlu untuk mengetahui bagaimana state diupdate seiring dengan waktu  Redux dibagi jadi 3, **Action** yang digunakan untuk memberikan informasi dari aplikasi ke store, **Reducer** yang merupakan pure JavaScript function yang mengambil state aplikasi saat ini dan object action lalu mengembalikan state aplikasi terbaru, **Store** merupakan objek sentral yang menyimpan state pada aplikasi. Cara memakai dan mengubah redux store ada dua, yaitu **Hooks** dan **Connect**
+- Redux thunk adalah thunk middleware untuk redux yang memungkinkan kita untuk membuat action creator yang mengembalikan function bukan action. Redux thunk digunakan untuk menghandle side effect logic seperti logic synchronous kompleks yang perlu mengakses store dan juga logic async seperti request data. Komunikasi antara aplikasi dan server tentang request dan response disebut juga dengan data fetching. 
