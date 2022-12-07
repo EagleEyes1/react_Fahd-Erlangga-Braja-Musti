@@ -1,0 +1,41 @@
+.title {
+    top: 0;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    padding-left: 550px !important;
+    background-color: #e3a1ab;
+    height: 30vh;
+    position: relative;
+    margin-bottom: 500px;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+
+.picture {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.photo {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+}
+
+.paragraph {
+    margin-left: 160px !important;
+    width: 500px;
+    padding-top: 30px;
+}
