@@ -9,6 +9,7 @@ const initialState = {
 
 export const getTodos = createAsyncThunk("todos/getTodos", async () => {
     const res = await APITodo.getTodo()
+    console.log(res)
     return res.data.todos
 })
 

@@ -5,7 +5,7 @@ import FooterPage from './pages/FooterPage';
 function App() {
   return (
     <>
-      <Forms />
+      <Header />
     </>
   );
 }
